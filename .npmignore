@@ -9,3 +9,4 @@ src
 .prettierrc
 commitlint.config.json
 tsconfig.json
+tests
