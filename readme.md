@@ -20,6 +20,8 @@ To get started, clone the repository and recreate the git repository to start wi
 ```bash
 git clone https://github.com/IamSebastianDev/template-pkg.git <your-package-name>
 
+cd <your-package-name>
+
 rm -rf .git
 git init
 ```
