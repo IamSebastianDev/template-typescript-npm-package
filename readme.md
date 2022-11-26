@@ -6,8 +6,10 @@ This template can be used as a opinionated starting point for a typescript based
 
 ## Tools used in the template
 
+-   [yarn](https://yarnpkg.com/getting-started)
 -   [TypeScript](https://www.typescriptlang.org)
 -   [Rollup](https://rollupjs.org/guide/en/) as bundler, using esbuild to transpile TypeScript to JavaScript
+-   [ava](https://github.com/avajs/ava) as testrunner
 -   [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) to ensure commit standards
 -   [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) to create releases automatically
 -   [Prettier](https://prettier.io) & [Pretty-quick](https://www.npmjs.com/package/pretty-quick) to format the code
@@ -31,10 +33,12 @@ After creating a new repository, fill out the remaining informations in the `pac
 ```bash
 # fill out the package.json
 yarn init
-
 # do a clean install of the dependencies
 yarn ci
-
 # install githooks
 yarn setup
 ```
+
+## Development
+
+Checkout the [`Contributing Guidelines`](./contributing.md) to find out how to develop within your newly created repository.
