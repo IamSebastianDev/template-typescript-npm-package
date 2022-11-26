@@ -18,7 +18,7 @@ This template can be used as a opinionated starting point for a typescript based
 To get started, clone the repository and recreate the git repository to start with a clean template.
 
 ```bash
-git clone https://github.com/IamSebastianDev/template-pkg.git
+git clone https://github.com/IamSebastianDev/template-pkg.git <your-package-name>
 
 rm -rf .git
 git init
