@@ -9,7 +9,7 @@ This template can be used as a opinionated starting point for a typescript based
 -   [yarn](https://yarnpkg.com/getting-started)
 -   [TypeScript](https://www.typescriptlang.org)
 -   [Rollup](https://rollupjs.org/guide/en/) as bundler, using esbuild to transpile TypeScript to JavaScript
--   [ava](https://github.com/avajs/ava) as testrunner
+-   [ava](https://github.com/avajs/ava) as test-runner
 -   [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) to ensure commit standards
 -   [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) to create releases automatically
 -   [Prettier](https://prettier.io) & [Pretty-quick](https://www.npmjs.com/package/pretty-quick) to format the code
@@ -28,7 +28,7 @@ cd <your-package-name>
 yarn reset
 ```
 
-After creating a new repository, fill out the remaining informations in the `package.json` and install the dev-dependencies. You should use the defaults already set in the `package.json` and only change the not already set meta information.
+After creating a new repository, fill out the remaining information in the `package.json` and install the dev-dependencies. You should use the defaults already set in the `package.json` and only change the not already set meta information.
 
 ```bash
 # fill out the package.json
