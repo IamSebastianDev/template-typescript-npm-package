@@ -24,8 +24,8 @@ git clone https://github.com/IamSebastianDev/template-pkg.git <your-package-name
 
 cd <your-package-name>
 
-rm -rf .git
-git init
+# Reset the git repository
+yarn reset
 ```
 
 After creating a new repository, fill out the remaining informations in the `package.json` and install the dev-dependencies. You should use the defaults already set in the `package.json` and only change the not already set meta information.
