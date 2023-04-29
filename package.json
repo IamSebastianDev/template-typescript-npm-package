@@ -31,7 +31,7 @@
   "scripts": {
     "preci": "rm -rf node_modules",
     "ci": "yarn install --frozen-lockfile",
-    "reset": "rm -rf .git && git init",
+    "reset": "rm -rf .git && git init && git branch -m main && git branch release && git checkout -b development",
     "setup": "npx husky install",
     "build": " rollup -c .config/rollup.config.js",
     "dev": "yarn build --watch",

@@ -26,6 +26,8 @@ cd <your-package-name>
 
 # Reset the git repository
 yarn reset
+
+# This will leave you with three branches, main, development and release.
 ```
 
 After creating a new repository, fill out the remaining information in the `package.json` and install the dev-dependencies. You should use the defaults already set in the `package.json` and only change the not already set meta information.
