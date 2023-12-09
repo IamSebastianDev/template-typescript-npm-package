@@ -11,7 +11,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
     "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
+    "@commitlint/config-conventional": "^18.4.3",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/node": "^20.10.3",
     "alex": "^11.0.0",
